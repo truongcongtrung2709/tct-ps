@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --primary-color: #222831;
+  --text-color: #eeeeee;
+  --button-color: #00adb5;
+  --secondary-color: #393e46;
+}
+body {
+  font-family: "Kanit", sans-serif;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+button {
+  background-color: var(--button-color);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: 1px solid var(--secondary-color);
+}
