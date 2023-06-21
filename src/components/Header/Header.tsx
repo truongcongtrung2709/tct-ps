@@ -13,7 +13,7 @@ console.log(effect, isToggle);
 
   }
   return (
-    <nav className=" fixed w-full z-20 top-0 left-0 ">
+    <nav className=" fixed w-full z-20 top-0 left-0  ">
   <div className=" max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4">
   <a href="/" className="flex items-center">
       <img src="/src/assets/logo/Logo.svg" className="h-8 mr-3" alt="TCT Logo"/>
@@ -21,7 +21,7 @@ console.log(effect, isToggle);
   </a>
   <div className="flex md:order-2">
       <button 
-      type="button" className="focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0  hover:bg-text-color hover:text-secondary-color transition-all duration-500 ">Login/Sign Up</button>
+      type="button" className="focus:outline-none font-medium rounded-lg border-none text-sm px-4 py-2 text-center mr-3 md:mr-0  hover:bg-text-color hover:text-secondary-color transition-all duration-500 ">Login/Sign Up</button>
       
       <button data-collapse-toggle="navbar-sticky" type="button" onClick={handleToggleMenu} className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden " aria-controls="navbar-sticky" aria-expanded="false">
         <span className="sr-only">Open main menu</span>
