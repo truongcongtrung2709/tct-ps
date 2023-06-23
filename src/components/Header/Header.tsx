@@ -4,12 +4,10 @@ const Header = () => {
   const [isToggle, setIsToggle] = useState<boolean>(false)
   // animate menu
   const [effect, setEffect] = useState<boolean>(false);
-console.log(effect, isToggle);
 
   const handleToggleMenu = () => {
     setIsToggle(!isToggle);
     setEffect(!effect);
-    console.log(effect, isToggle);
 
   }
   return (
