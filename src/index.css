@@ -31,3 +31,6 @@ h1 {
   font-size: 2rem;
   padding: 1rem 0;
 }
+span {
+  color: var(--button-color);
+}
