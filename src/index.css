@@ -27,3 +27,7 @@ button {
 .banner {
   height: 850px;
 }
+h1 {
+  font-size: 2rem;
+  padding: 1rem 0;
+}

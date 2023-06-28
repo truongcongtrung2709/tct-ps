@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import { AiOutlineSearch } from "react-icons/ai";
 const Header = () => {
   // Toggle menu
   const [isToggle, setIsToggle] = useState<boolean>(false)
@@ -15,10 +16,13 @@ const Header = () => {
   <div className=" max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4">
   <a href="/" className="flex items-center">
       <img src="/src/assets/logo/Logo.svg" className="h-8 mr-3" alt="TCT Logo"/>
-      <span className="self-center text-2xl font-semibold whitespace-nowrap ">TCT Cinema</span>
+      <span className="self-center text-2xl font-semibold whitespace-nowrap ">TCT Playstation</span>
   </a>
   <div className="flex md:order-2">
-      <button 
+  <button 
+      type="button" className="focus:outline-none font-medium rounded-lg border-none text-xl px-4 py-2 text-center mr-3 md:mr-0  hover:bg-text-color hover:text-secondary-color transition-all duration-500 "><AiOutlineSearch/></button>
+     
+  <button 
       type="button" className="focus:outline-none font-medium rounded-lg border-none text-sm px-4 py-2 text-center mr-3 md:mr-0  hover:bg-text-color hover:text-secondary-color transition-all duration-500 ">Login/Sign Up</button>
       
       <button data-collapse-toggle="navbar-sticky" type="button" onClick={handleToggleMenu} className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden " aria-controls="navbar-sticky" aria-expanded="false">
@@ -32,10 +36,10 @@ const Header = () => {
         <a href="/" className="block py-2 pl-3 pr-4 md:p-2 hover:bg-text-color hover:text-secondary-color rounded-md transition-all duration-500" aria-current="page">Home</a>
       </li>
       <li>
-        <a href="/" className="block py-2 pl-3 pr-4 md:p-2 hover:bg-text-color hover:text-secondary-color rounded-md transition-all duration-500   ">Cinema</a>
+        <a href="/" className="block py-2 pl-3 pr-4 md:p-2 hover:bg-text-color hover:text-secondary-color rounded-md transition-all duration-500   ">Games</a>
       </li>
       <li>
-        <a href="/" className="block py-2 pl-3 pr-4 md:p-2 hover:bg-text-color hover:text-secondary-color rounded-md transition-all duration-500 ">Now Showing</a>
+        <a href="/" className="block py-2 pl-3 pr-4 md:p-2 hover:bg-text-color hover:text-secondary-color rounded-md transition-all duration-500 ">Hardware</a>
       </li>
       <li>
         <a href="/" className="block py-2 pl-3 pr-4 md:p-2  hover:bg-text-color hover:text-secondary-color rounded-md transition-all duration-500">Contact</a>

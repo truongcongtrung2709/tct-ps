@@ -5,7 +5,7 @@ import { CiTwitter } from "react-icons/ci";
 import { AiOutlineYoutube } from "react-icons/ai";
 const Footer = () => {
   return (
-    <div className=" bg-secondary-color">
+    <footer className=" bg-secondary-color">
       <div className="max-w-screen-2xl m-auto">
         <img className='w-20 m-auto text-center p-4' src="/src/assets/logo/Logo.svg"  alt="" />
       <div className='flex justify-center'>
@@ -28,7 +28,7 @@ const Footer = () => {
         </p>
       </div>
       </div>
-    </div>
+    </footer>
   )
 }
 

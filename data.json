@@ -1,33 +1,62 @@
 {
-  "movies":[
+  "games":[
   {
-    "name":"Spiderman: Across the spider verse",
-  "description": "After reuniting with Gwen Stacy, Brooklyn's full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse's very existence.",
-  "image":"/src/assets/images/banner.jpg"},
+    "id": 1,
+    "name":"Assassin's Creed Valhalla",
+  "description": "Become a legendary Viking warrior raised on tales of battle and glory. Raid your enemies, grow your settlement, and build your political power in the quest to earn a place among the gods in Valhalla.",
+  "platform": "PS4,PS5",
+  "price": "59.99",
+  "image":"/src/assets/images/banners/banner.jpg",
+  "avatar": "/src/assets/images/avatars/avatar.jpg"
+},
  
   {
-    "name":"Transformer: Rise of the beasts",
-  "description": "Transformers: Rise of the Beasts is a 2023 American science fiction action film based on Hasbro's Transformers toy line, and primarily influenced by the Beast Wars storyline. It is the seventh installment in the Transformers live-action film series.",
-  "image":"/src/assets/images/banner2.jpg"},
+    "id": 2,
+    "name":"Marvel's Spider-Man 2",
+  "description": "Spider-Men, Peter Parker and Miles Morales, return for an exciting new adventure in the critically acclaimed Marvel’s Spider-Man franchise for PS5.Swing, jump and utilize the new Web Wings to travel across Marvel’s New York, quickly switching between Peter Parker and Miles Morales to experience different stories and epic new powers, as the iconic villain Venom threatens to destroy their lives, their city and the ones they love.",  
+  "platform": "PS5",
+  "price": "79.99",
+  "image":"/src/assets/images/banners/banner2.jpg",
+  "avatar": "/src/assets/images/avatars/avatar2.jpg"
+},
 
   {
-    "name":"The Flash: Flashpoint ",
-  "description": "The Flash travels through time to prevent the murder of his mother but unwittingly causes changes that result in the creation of a multiverse. The film is based on the iconic Flashpoint event from DC Comics, where Flash meets new versions of Batman and Superman as he strives to prevent the multiverse from collapsing.",
-  "image":"/src/assets/images/banner3.jpg"},
+    "id": 3,
+    "name":"Diablo IV",
+  "description": "The legendary action RPG series returns with Diablo IV. This spectacular evolution introduces a vast new world to explore, filled with the promise of never-ending adventure, deadly demons and legendary loot. Discover the corrupted land of Sanctuary as it falls into a new era of darkness. Lilith, daughter of Mephisto, Lord of Hatred, has been freed from exile and now her hateful influence threatens to consume the world. Only you and your fellow adventurers stand between Lilith and Sanctuary’s ruin.",
+  "platform": "PS4,PS5",
+  "price": "69.99",
+  "image":"/src/assets/images/banners/banner3.jpg",
+  "avatar": "/src/assets/images/avatars/avatar3.jpg"
+},
 
   {
-    "name":"Fast and furious 10",
-  "description": "Dominic Toretto and his team are requested by the Agency to steal a computer chip during its transit in Rome, Italy. Dom and his wife Letty Ortiz stay behind with his son Brian 'Little B' Marcos, while the rest of the team travels to Rome. However, a wounded Cipher arrives at Dom's home and informs him that Dante Reyes, the son of drug lord Hernan Reyes, has turned her crew against her by threatening their families and is using them to target Dom in revenge for his father's death and the loss of his family's fortune ten years prior.[b] Little Nobody takes Cipher into custody but reveals to Dom and Letty that there is no Agency mission in Rome. Realizing that Dante set them up, Dom and Letty go to rescue the team.",
-  "image":"/src/assets/images/banner4.jpg"},
+    "id": 4,
+    "name":"EA SPORTS™ FIFA 23",
+  "description": "EA SPORTS™ FIFA 23 brings The World’s Game to the pitch, with both men’s and women’s FIFA World Cup™ tournaments, the addition of women’s club teams and new ways to play your favorite modes. Advances in HyperMotion2 Technology bring even more of the action and realism of football to the pitch on PS5. Driven by twice as much real-world motion capture, there is now more true football animation than ever before in every match.",
+  "platform": "PS5",
+  "price": "17.49",
+  "image":"/src/assets/images/banners/banner4.jpg",
+  "avatar": "/src/assets/images/avatars/avatar4.jpg"
+},
   {
-    
-    "name":"Little Mermaid",
-  "description": "he story centers a young mermaid named Ariel, who is captivated by the world upon the surface. When she falls in love with a human prince, she makes a deal with a villainous sea witch to become human, herself, and must earn his love before the agreed time runs out.",
-  "image":"/src/assets/images/banner5.jpg"
+    "id": 5,
+    "name":"Grand Theft Auto V",
+  "description": "Includes Grand Theft Auto V: Story Mode and Grand Theft Auto Online. Continue your journey on PS5™ and transfer both GTAV Story Mode progress and GTA Online characters and progression to PS5™ with a one-time migration. Experience entertainment blockbusters, Grand Theft Auto V and GTA Online — now for PS5™. PS5™ players can enjoy new high-performance vehicle upgrades and improvements like the Career Builder as well as all GTA Online gameplay upgrades, expansions, and access to all current and previous content updates, ready to enjoy solo or with friends. Pull off daring co-operative Heists, enter adrenaline-fueled Stunt Races, compete in unique Adversary Modes, or hang out in social spaces including nightclubs, arcades, penthouse parties, car meetups, and much more.",
+  "platform": "PS5",
+  "price": "39.99",
+  "image":"/src/assets/images/banners/banner5.jpg",
+  "avatar": "/src/assets/images/avatars/avatar5.jpg"
   },
   {
-  "name": "Avatar The way of the Water",
-  "description":"Sixteen years after the Na'vi repelled the RDA invasion of Pandora,[a] Jake Sully lives as chief of the Omatikaya clan and raises a family with Neytiri, which includes sons Neteyam and Lo'ak, daughter Tuk, and adopted children Kiri (born from Grace Augustine's inert avatar) and Spider, the Pandora-born human son of the late Colonel Miles Quaritch. To the Na'vi's dismay, the RDA, led by their new leader Frances Ardmore, returns to colonize Pandora, as Earth is dying. Among the new arrivals are Recombinants—Na'vi avatars implanted with the memories of deceased human soldiers—with Quaritch's recombinant serving as the leader.",
-  "image": "/src/assets/images/banner6.jpg"}
+    "id": 6,
+    "name":"Street Fighter 6",
+  "description": "Street Fighter 6 is the next evolution of the Street Fighter series, and features innovative new gameplay features, plus enhanced visuals for every aspect of the game. Powered by Capcom's proprietary RE ENGINE, the Street Fighter 6 experience spans across three distinct game modes - Fighting Ground, World Tour and Battle Hub. Your path to becoming a World Warrior starts here. Your moment. Your fight.",
+  "platform": "PS4,PS5",
+  "price": "59.99",
+  "image":"/src/assets/images/banners/banner6.jpg",
+  "avatar": "/src/assets/images/avatars/avatar6.jpg"
+    
+}
 ]
 }

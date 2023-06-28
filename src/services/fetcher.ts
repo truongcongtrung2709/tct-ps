@@ -1,14 +1,18 @@
 // import axios from 'axios';
+
+
+
 // const fetcher = axios.create({
-//   baseURL:"http://localhost:3000/"
-// })
+//   baseURL: 'http://localhost:3000',
+// });
+
 // fetcher.interceptors.response.use(
 //   (response) => {
-//       return response.data.content
+//     return response.data;
 //   },
 //   (error) => {
-//       return Promise.reject(error.response.data.content)
-//   },
-// )
+//     return Promise.reject(error.response.data);
+//   }
+// );
 
 // export default fetcher;
