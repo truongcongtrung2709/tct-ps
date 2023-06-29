@@ -14,7 +14,9 @@ const SignIn = () => {
     },
     mode: "onTouched",
   })
-  const onSubmit: SubmitHandler<UserIn> = (data) => console.log(data);
+  const onSubmit: SubmitHandler<UserIn> = (data) => {
+    const url = ("http://localhost:3000/users"+data.email)
+  };
   
   useEffect(()=> {
     initTE({Tab});
