@@ -58,5 +58,14 @@
   "avatar": "/src/assets/images/avatars/avatar6.jpg"
     
 }
-]
+],
+"users":{
+  "id":1,
+  "lastName": "Truong",
+  "firstName": "Trung",
+  "birth": "27/09/1996",
+  "email":"truongcongtrung@gmail.com",
+  "phone": "0778046560",
+  "password": "tct2709123"
+}
 }
