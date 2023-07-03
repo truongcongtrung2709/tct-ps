@@ -59,13 +59,23 @@
     
 }
 ],
-"users":{
+"users":[{
   "id":1,
   "lastName": "Truong",
   "firstName": "Trung",
   "birth": "27/09/1996",
-  "email":"truongcongtrung@gmail.com",
+  "email":"truongcongtrung2709@gmail.com",
   "phone": "0778046560",
   "password": "tct2709123"
+},
+{
+  "id":2,
+  "lastName": "Pham",
+  "firstName": "Quynh",
+  "birth": "12/09/1994",
+  "email":"trucquynh1209@gmail.com",
+  "phone": "0778046560",
+  "password": "tq1209123"
 }
+]
 }

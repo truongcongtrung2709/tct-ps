@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import axios, {AxiosResponse} from 'axios';
+import gamesApi from '../../../services/gamesApi';
 // import gamesAPI from '../../../services/gamesAPI';
 interface Data {
   id:number;
@@ -17,8 +18,10 @@ const [games, setGames] =  useState<Data[] >([])
 
 // useEffect(()=>{
 // (async () => {
-//   const data= await gamesAPI.getGames()
+//   const data= await gamesApi.getGames()
+//   console.log(data);
 //   setGames(data)
+  
 // })()
 // },[])
 // console.log(games);
@@ -26,8 +29,12 @@ const [games, setGames] =  useState<Data[] >([])
 
 useEffect(() => {
   (async () => {
-    const res = await axios.get("http://localhost:3000/games")
-    setGames(res.data)
+    await axios.get("http://localhost:3000/games").then((res)=>{
+      setGames(res.data)
+    }).catch((err) => {
+      console.log(err);
+      
+    })
     
   })()
 }, [])

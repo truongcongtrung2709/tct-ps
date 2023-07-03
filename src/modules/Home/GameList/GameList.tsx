@@ -27,8 +27,12 @@ const GameList= () => {
 
   useEffect(() => {
     (async () => {
-      const res = await axios.get("http://localhost:3000/games")
-      setGames(res.data)
+      await axios.get("http://localhost:3000/games").then((res) => {
+        setGames(res.data)
+      }).catch((err)=>{
+        console.log(err);
+        
+      })
       
     })()
   }, [])
